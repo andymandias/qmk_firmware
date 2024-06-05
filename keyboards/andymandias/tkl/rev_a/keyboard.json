@@ -1,0 +1,20 @@
+{
+    "keyboard_name": "andymandias TenKeyLess Rev:A",
+    "usb": {
+        "vid": "0x1209",
+        "pid": "0xAB0A",
+        "device_version": "0.1.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["B0", "A7", "A6", "A5", "A4", "A9", "A8", "B15", "B14", "B13", "B12", "B11", "B10", "B2", "B5", "B4", "B3"],
+        "rows": ["A10", "B1", "A3", "A2", "A1", "B9", "A15", "B6", "B8"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "STM32F072",
+    "bootloader": "stm32-dfu"
+}
